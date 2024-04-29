@@ -11,8 +11,8 @@ BACKROUND_IMAGE = 'assets/Background.png'
 #
 msg = 'Endor Moon'
 pygame.init()
-#screen = pygame.display.set_mode((HEIGHT, WIDTH), pygame.FULLSCREEN)
-screen = pygame.display.set_mode((HEIGHT, WIDTH))
+screen = pygame.display.set_mode((HEIGHT, WIDTH), pygame.FULLSCREEN)
+#screen = pygame.display.set_mode((HEIGHT, WIDTH))
 pygame.display.set_caption("Endor Moon")
 #
 def print_screen_backround(image):
@@ -86,6 +86,7 @@ while True:
     #
     if keys[K_1]:
         versus()
+        versus()
     if keys[K_2]:
         msg = "Joc per:"
         credit_animation()
@@ -135,7 +136,7 @@ while True:
         time.sleep(0.5)
         pygame.display.update()
         #
-        msg = "B.I.G"
+        msg = "B.I.G."
         credit_animation()
         #
         time.sleep(0.5)

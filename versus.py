@@ -72,7 +72,7 @@ def versus():
     player2_bullets = []
     #
     bullet_speed = 3
-    bullet_cooldown = 100
+    bullet_cooldown = 1000
     time_from_last_bullet_player1 = 0
     time_from_last_bullet_player2 = 0
     #
